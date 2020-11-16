@@ -10,10 +10,10 @@ export class AppComponent {
 
   options =  {
     // Set the file upload parameter.
-    fileUploadParam: 'file_param',
+    // fileUploadParam: 'file_param',
 
     // Set the file upload URL.
-    fileUploadURL: 'https://940fe46825ef131c4d9415ce53d4b402.m.pipedream.net',
+    fileUploadURL: 'http://localhost:61114/Froala/Upload',
 
     // Additional upload params.
     fileUploadParams: {id: 'my_editor'},
