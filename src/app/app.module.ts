@@ -6,7 +6,12 @@ import { AppComponent } from './app.component';
 import { FroalaEditorDirective, FroalaEditorModule, FroalaViewModule } from 'angular-froala-wysiwyg';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
-import 'froala-editor/js/plugins.pkgd.min.js';
+// All plugins
+// import 'froala-editor/js/plugins.pkgd.min.js';
+
+// File upload plugin
+import 'froala-editor/js/plugins/file.min.js';
+
 // import 'froala-editor/js/froala_editor.min.js';
 // import 'froala-editor/js/plugins/align.min.js';
 // import 'froala-editor/js/plugins/char_counter.min.js';

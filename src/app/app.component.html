@@ -1,6 +1,5 @@
 <h1>Froala test</h1>
-<div>
-    <textarea [froalaEditor]="options" [(froalaModel)]="editorContent"></textarea>
+<div [froalaEditor]="options" [(froalaModel)]="editorContent">
 </div>
 <div [froalaView]="editorContent"></div>
 <div>{{editorContent}}</div>
